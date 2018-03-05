@@ -1,0 +1,306 @@
+
+NOTES && IDEAS:
+
+http://invertebrates.si.edu/
+
+- - -
+
+TO DO
+[ ] order sma connector
+		https://www.mouser.com/ProductDetail/TE-Connectivity/5-1814832-1/?qs=eORE%252bZ%252b0CrsFkn5eoDRxyQ%3D%3D&gclid=Cj0KCQiAhrbTBRCFARIsACY7MW3J4A24OqOETMj9PNFSpD2dO2BKUt_E14YejURZHN3WPYrGSMQ7QdYaAmSgEALw_wcB
+[ ] what does it do when it comes on?
+	- what is the digital equivalent of "being alive"
+
+- - -
+
+
+**** WHAT DOES IT DO WHEN IT TURNS ON? ****
+
+	Contain code that generates its heatsink, like DNA?
+
+- - -
+
+http://www.keatingfoundry.com/services-2/
+
+https://outdoors.stackexchange.com/questions/681/what-are-areas-of-the-body-which-lose-heat-more-quickly-and-how-can-i-reduce-th
+
+- - -
+
+thermal conductivity
+measured in W * m^01 * K^-1
+
+diamond				1000 (as much as 2200 for very pure, natural)
+copper (pure) 		401
+aluminum 			237
+
+https://en.wikipedia.org/wiki/List_of_thermal_conductivities
+
+SIMULATION IN FUSION 360
+https://knowledge.autodesk.com/support/fusion-360/learn-explore/caas/CloudHelp/cloudhelp/ENU/Fusion-Function/files/GUID-7EF9C43E-B6DD-4FF2-8902-C538B2063C85-htm.html
+https://www.youtube.com/watch?v=CRD9HT9iyBY
+https://www.youtube.com/watch?v=jBBLKpFeWqE
+
+- open obj in fusion
+	- insert mesh
+	- move and scale as needed
+- choose mesh
+	- modify > mesh > mesh to brep
+
+- - -
+
+heatsink notes
+- thinning not good
+- branching seems to help too?
+
+- work better when air is much cooler than source (req for convection)
+	- probably not good under clothes then
+		- back of neck?
+	- might work best in very cold data centers!
+	- shoot video there?
+
+0.03V from teg w alumn heatsink on cool part of laptop
+
+- - -
+
+1.4–2.1mg copper per kg of body weight
+- typical ingestion 5mg/day, only 20–50% absorbed
+- helps make red blood cells, collagen
+- deficiency would result from the leeching
+- would cause anemia, low white blood cell count
+	- can also cause low body temp – maybe way to raise that too?
+
+- maybe the urge to eat whole grain cereals, legumes, oysters, liver, cherries, dark choc,
+  fruits, leafy green veg, nuts, prunes, and soy products (which are high in copper)
+- https://en.wikipedia.org/wiki/Copper_deficiency
+
+NiMH battery
+titanium or vanadium (neither found in body, va found in pepper, radishes, eggs, buckwheat and oats)
+nickel (found in body via nuts, beans and peas, chocolate) w chromium (found in body via meat, potato skin, cheese, molasses, and hard tap water), cobalt, iron (dark choc, lentils, spinach, pump seeds, tofu, or manganese (leaf veg, tea, beans, seeds, whole grains)
+
+- - -
+
+feeding is the main idea around parasites (and being unwanted)
+
+- - -
+
+Media Parasites in the Early Avant-Garde
+A. Niebisch
+
+Greek root of parasite: para meaning "beside" and sitos meaning "grain"
+
+"[this definition] indicates that the parasite exists next to its nourishing host."
+
+"[Avant-garde artists] engaged with these ideas without obeying the laws of the university or the rigidity of engineering. The avant-garde arbitrarily took from these discourse and reassembled such fragments in order to proclaim the dawn of a new man or era that would emerge from an accelerated modernity."
+
+Shannon's theory: parasite of the "univited interceptor" of a secret message "that feasts on every signal transmitted through the communication lines".
+
+"Parasitic" used in ee to describe irritations or static in trans channel (note 23)
+
+parasites create dynamic systems, and Serres argues that "the parasite is not simply an outside intruder, but the index for the complexity in a system. This is an ecological turn, b/c Serres no longer separates a comm sys from its disturbing outside but desc noise as an integral part of the ecology of comm."
+
+https://books.google.com/books?id=xgnGedTMWwAC&pg=PT141&lpg=PT141&dq=aesthetics+of+parasitism&source=bl&ots=-168dQY_n1&sig=HD_fnkEya3qDvIlQaTDtN2qR3AQ&hl=en&sa=X&ved=0ahUKEwiai4iKzeTYAhWDmeAKHdQrAOkQ6AEILjAC#v=onepage&q&f=false
+
+- - -
+
+We now talk about computers* in nearly identical ways to how we talk about the natural world. They are no longer separate technical objects but embedded, alive, and surrounding us in the landscape. They are not unlike a manicured garden (highly intricate, human-made) or a swamp (untended, sublime in their complexity). This builds from the idea of media ecology, but instead of a closed ecology of just the technical, it extends to our entire environment, computer and plant and animal.
+
+* "computer" here in the broadest sense, meaning laptops, phones, tablets, servers, and other digital, networked devices
+
+- - -
+
+FILMS
+being john malkovitch
+existenz
+videodrome
+the brood
+princess mononoke
+vanture bros fetus-in-fetu
+twin peaks (S2 E14, S3 E8)
+https://www.youtube.com/watch?v=6YC07AjIwHg&app=desktop
+day of the triffids
+chocky
+upstream color
+
+- - -
+
+"[Speaking of how all eggs in a clutch are similarly colored so a parasitic bird can't easily insert their own in the nest] ...the knowledge of evolutionary forces affects how we see, and, hence, affects the aesthetic properties of eggs."
+
+from "Scientific Knowledge and the Aesthetic Appreciation of Nature"
+Patricia Matthews
+Nature, Aesthetics, and Environmentalism: From Beauty to Duty
+ed Allen Carlson and Sheila Lintott
+pg 192
+
+"The Babel fish is small, yellow, leech-like, and probably the oddest thing in the universe. It feeds on brain wave energy, absorbing all unconscious frequencies and then excreting telepathically a matrix formed from the conscious frequencies and nerve signals picked up from the speech centres of the brain, the practical upshot of which is that if you stick one in your ear, you can instantly understand anything said to you in any form of language: the speech you hear decodes the brain wave matrix."
+– Hitchikers Guide
+
+- - -
+
+several random 3D walks from base to spiral
+then interpolate between them across all other points?
+
+- find nearest N neighbors
+- get dist to use as weight
+- do weighted average of the neighboring pts
+- use that?
+
+- - -
+
+Arduino bootloader
+https://github.com/arduino/Arduino/blob/master/hardware/arduino/avr/bootloaders/atmega/ATmegaBOOT_168_atmega328.hex
+
+Might be good for going from print to obj for casting?
+- (can be burned out?)
+- https://www.smooth-on.com/product-line/xtc-3d/
+
+- - -
+
+Is it friendly?
+What does it do to you?
+What is the motivation?
+- (it's not reproducing...)
+
+- - -
+
+TEG DIMS
+40.5 x 40.5mm for a semi-loose fit
+~5mm thick with wires coming out of two corners
+
+- - -
+
+SLICES TO 3D MODEL IN FIJI
+
+File > Import > Image Stack...
+- convert to 8-bit gray (to be safe)
+- sort numerically
+- nothing else
+- check everything is ok with arrow keys back and forth
+
+Plugins > 3D Viewer...
+- Display as > Surface (so it'll be a solid later)
+- threshold 50 (since our image is binary)
+- resampling factor: low val = higher res (try 2 to start, 1 will be really slow but super nice)
+
+File > Export STL...
+- save it out to file
+
+In Rhino...
+- import 
+- mesh boolean > union if necessary
+- "flip" command to reverse normals
+- render and/or save
+
+- - -
+
+Parasite Rex
+Carl Zimmer (2000)
+
+"There's a parrot in Mexico with thirty different species of mites on its feathers alone. And the parasites themselves have parasites, and some of those parasites have parasites of their own."
+p xxi
+
+"Parasites make up the majority of species on Earth. According to one estimate, parasites may out-number free-living species four to one."
+p xxi
+
+idea that parasites were created by the body itself (never seen outside it), but that didn't work w Christian idea that God created all living things
+or that parasites were created by God in Adam as helpers, who became bad after the fall
+(p 5)
+
+Couch's spadefoot toad lives underground, not eating for 11 months
+https://en.wikipedia.org/wiki/Couch%27s_spadefoot_toad
+"It sits underground, not eating, not drinking. Its heart barely beats, but its cells still have to purr metabolically along, and it stores its wastes in its liver and bladder."
+p 51
+
+	- cites American Zoologist, 1990 30:313-324 – article by R. C. Tinsley, "The Influence of Parasitic Infection on Mating Success in Spadefoot Toads"
+
+- - -
+
+grows as it gets more elec, like a tick filling w blood?
+
+target shape + random shape --> gen algo to grow towards, pick fave
+
+laplacian growth?
+crystals?
+- from the elements in the cpu?
+
+what kind of growth would a computer have?
+- fractal?
+- branching?
+- neural net weirdness
+
+bacterial growth
+spiderwebs
+
+machine learning to form paths?
+
+diatom shapes
+
+- - -
+
+From "Human Parasitology"
+Burton J Bogitish, Thomas N Oeltmann, and Clint E Carter
+2005
+
+"symbiosis" now means any two orgs that live together, regardless of harm or benefit - four types of symb are: 
+- commensalism (lit. eating at the same table, not nec physical interaction)
+- phoresis (from Greek to carry, no dependency in procurement of food)
+- mutalism (depend on each other)
+
+- parasitism
+	- obligatory (like ticks) req host to survive
+	- facultative are free living and become parasites when it serves them
+	- endoparasites live inside, ectoparasites live attached to the outer surface
+- hosts
+	- defininitive = where parasite reaches sexual maturity
+	- intermediate = temp but essential step
+	- transfer or paratenic = not nec but "temp refuge and a vehicle for reaching an obligatory, usually the definitive, host in the cycle"
+
+- - -
+
+brass from shapeways
+$14.00 per cm3
+$0.45  per surface area cm2
+max env = 89x89x100mm
+
+alum
+$10.00 handling fee
+$7.00  per cm3
+$0.23  per bounding box cm3
+$0.45  per surface area cm2 
+
+- - -
+
+heatsink more organic, "grown" algorithmically like fins and 3D printed in metal
+- evolutionary
+
+model lots and test in Fusion?
+https://www.youtube.com/watch?v=CRD9HT9iyBY
+
+large surface area
+convection allowing to radiate out (can't be kept in)
+thick to thin?
+
+like its shell or exoskeleton growing around it
+
+- - -
+
+https://en.wikipedia.org/wiki/Surface-area-to-volume_ratio#Biology
+
+https://en.wikipedia.org/wiki/Heat_sink
+
+http://ieeexplore.ieee.org/document/7468376/?reload=true
+
+https://blogs.mentor.com/robinbornoff/blog/2015/03/24/organically-grown-3d-printable-heatsinks-part-1-a-simple-iterative-procedure/
+
+https://books.google.com/books?id=YzzKx81IDLsC&pg=PA80&lpg=PA80&dq=topology+maximum+surface+area&source=bl&ots=89ZoK5zwLd&sig=G9aAjVLS0chuVOdBY5sRUQWqbx4&hl=en&sa=X&ved=0ahUKEwiMoo_F_tTVAhXkyVQKHQUZAbMQ6AEIVzAH#v=onepage&q=topology%20maximum%20surface%20area&f=false
+
+- - -
+
+fuel with blood?
+
+biobattery:
+https://www.magicalmicrobes.com/collections/kits
+https://www.nrl.navy.mil/media/news-releases/2013/NRL-researcher-discusses-benthic-fuel-cells-electricity-from-wastewater-and-fuel-from-CO2
+http://makezine.com/projects/make-30/bacteria-battery/
+
+- - -
+
