@@ -10,6 +10,7 @@ Transmits a URL to the project's code, STL files, and other materials.
 */
 
 
+// https://www.github.com/jeffthompson/parasiticcomputer
 const char url[] = {
   0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 
   0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 
